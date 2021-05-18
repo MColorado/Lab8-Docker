@@ -1,0 +1,31 @@
+
+   54  docker build -t docker-demo .
+   55  git init
+   56  git add .
+   57  git commit -m "initial commit + docker"
+   58  history
+   59  history > command.txt
+    
+   53  docker ps
+   54  docker stop 085f9c9a3e9a
+   55  docker ps
+   56  docker build -t docker-demo
+   57  docker build -t docker-demo .
+   58  docker image
+   59  docker images
+   60  docker run -dp 3000:3000 docker-demo
+   61  docker ps
+   62  history >> command.txt
+    1  docker images
+    2  docker tag docker-demo l00162021/docker-demo
+    3  history >> command.txt
+REPOSITORY              TAG       IMAGE ID       CREATED          SIZE
+docker-demo             latest    6f5f6a6fd298   6 minutes ago    385MB
+l00162021/docker-demo   latest    6f5f6a6fd298   6 minutes ago    385MB
+<none>                  <none>    6a0e51aa5a4f   17 minutes ago   383MB
+    1  docker images
+    2  docker tag docker-demo l00162021/docker-demo
+    3  history >> command.txt
+    4  docker images >> command.txt
+    5  docker push l00162021/docker-demo
+    6  history >> command.txt 
