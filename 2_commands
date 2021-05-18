@@ -1,0 +1,7 @@
+    1  docker volume ls
+    2  docker volume create todo-db
+    3  docker run -dp 3000:3000 -v todo-db:/etc/todos docker-demo
+    4  docker run -dp 3000:3000 -v todo-db:/etc/todos docker-demo
+    5  docker run -dp 3000:3000 -v todo-db:/etc/todos docker-demo
+    6  docker volume inspect todo-db > 2_inspect_tododb
+    7  history > 2_commands

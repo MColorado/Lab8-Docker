@@ -1,0 +1,11 @@
+[
+    {
+        "CreatedAt": "2021-05-18T02:48:11Z",
+        "Driver": "local",
+        "Labels": {},
+        "Mountpoint": "/var/lib/docker/volumes/todo-db/_data",
+        "Name": "todo-db",
+        "Options": {},
+        "Scope": "local"
+    }
+]
